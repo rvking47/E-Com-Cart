@@ -4,7 +4,7 @@ import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast';
 
 
-const base_url = "http://localhost:4000";
+const base_url = "https://e-com-cart-5bca.onrender.com";
 
 const ProductList = () => {
   const [products, getProducts] = useState([]);

@@ -5,7 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { FaCartShopping } from 'react-icons/fa6';
 import Checkout from './Checkout';
 
-const base_url = "http://localhost:4000";
+const base_url = "https://e-com-cart-5bca.onrender.com";
 
 const Cart = () => {
     const [cartItem, setCartItem] = useState([]);

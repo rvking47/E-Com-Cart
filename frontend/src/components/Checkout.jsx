@@ -3,7 +3,7 @@ import { Modal, Button, Form } from "react-bootstrap";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const base_url = "http://localhost:4000";
+const base_url = "https://e-com-cart-5bca.onrender.com";
 
 const Checkout = ({ show, handleClose, cartItems, total }) => {
     const [loading, setLoading] = useState(false);
